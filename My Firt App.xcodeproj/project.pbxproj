@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14BB1C0F206040B7002F9566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB1C0E206040B7002F9566 /* AppDelegate.swift */; };
+		14BB1C11206040B7002F9566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB1C10206040B7002F9566 /* ViewController.swift */; };
+		14BB1C14206040B7002F9566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB1C12206040B7002F9566 /* Main.storyboard */; };
+		14BB1C16206040B7002F9566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BB1C15206040B7002F9566 /* Assets.xcassets */; };
+		14BB1C19206040B7002F9566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BB1C17206040B7002F9566 /* LaunchScreen.storyboard */; };
+		14BB1C24206040B7002F9566 /* My_Firt_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB1C23206040B7002F9566 /* My_Firt_AppTests.swift */; };
+		14BB1C2F206040B7002F9566 /* My_Firt_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB1C2E206040B7002F9566 /* My_Firt_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14BB1C20206040B7002F9566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BB1C03206040B7002F9566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BB1C0A206040B7002F9566;
+			remoteInfo = "My Firt App";
+		};
+		14BB1C2B206040B7002F9566 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BB1C03206040B7002F9566 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BB1C0A206040B7002F9566;
+			remoteInfo = "My Firt App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14BB1C0B206040B7002F9566 /* My Firt App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Firt App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BB1C0E206040B7002F9566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14BB1C10206040B7002F9566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14BB1C13206040B7002F9566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14BB1C15206040B7002F9566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14BB1C18206040B7002F9566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14BB1C1A206040B7002F9566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BB1C1F206040B7002F9566 /* My Firt AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Firt AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BB1C23206040B7002F9566 /* My_Firt_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Firt_AppTests.swift; sourceTree = "<group>"; };
+		14BB1C25206040B7002F9566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BB1C2A206040B7002F9566 /* My Firt AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Firt AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BB1C2E206040B7002F9566 /* My_Firt_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Firt_AppUITests.swift; sourceTree = "<group>"; };
+		14BB1C30206040B7002F9566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BB1C08206040B7002F9566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB1C1C206040B7002F9566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB1C27206040B7002F9566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BB1C02206040B7002F9566 = {
+			isa = PBXGroup;
+			children = (
+				14BB1C0D206040B7002F9566 /* My Firt App */,
+				14BB1C22206040B7002F9566 /* My Firt AppTests */,
+				14BB1C2D206040B7002F9566 /* My Firt AppUITests */,
+				14BB1C0C206040B7002F9566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14BB1C0C206040B7002F9566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BB1C0B206040B7002F9566 /* My Firt App.app */,
+				14BB1C1F206040B7002F9566 /* My Firt AppTests.xctest */,
+				14BB1C2A206040B7002F9566 /* My Firt AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14BB1C0D206040B7002F9566 /* My Firt App */ = {
+			isa = PBXGroup;
+			children = (
+				14BB1C0E206040B7002F9566 /* AppDelegate.swift */,
+				14BB1C10206040B7002F9566 /* ViewController.swift */,
+				14BB1C12206040B7002F9566 /* Main.storyboard */,
+				14BB1C15206040B7002F9566 /* Assets.xcassets */,
+				14BB1C17206040B7002F9566 /* LaunchScreen.storyboard */,
+				14BB1C1A206040B7002F9566 /* Info.plist */,
+			);
+			path = "My Firt App";
+			sourceTree = "<group>";
+		};
+		14BB1C22206040B7002F9566 /* My Firt AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				14BB1C23206040B7002F9566 /* My_Firt_AppTests.swift */,
+				14BB1C25206040B7002F9566 /* Info.plist */,
+			);
+			path = "My Firt AppTests";
+			sourceTree = "<group>";
+		};
+		14BB1C2D206040B7002F9566 /* My Firt AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14BB1C2E206040B7002F9566 /* My_Firt_AppUITests.swift */,
+				14BB1C30206040B7002F9566 /* Info.plist */,
+			);
+			path = "My Firt AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14BB1C0A206040B7002F9566 /* My Firt App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BB1C33206040B7002F9566 /* Build configuration list for PBXNativeTarget "My Firt App" */;
+			buildPhases = (
+				14BB1C07206040B7002F9566 /* Sources */,
+				14BB1C08206040B7002F9566 /* Frameworks */,
+				14BB1C09206040B7002F9566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Firt App";
+			productName = "My Firt App";
+			productReference = 14BB1C0B206040B7002F9566 /* My Firt App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14BB1C1E206040B7002F9566 /* My Firt AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BB1C36206040B8002F9566 /* Build configuration list for PBXNativeTarget "My Firt AppTests" */;
+			buildPhases = (
+				14BB1C1B206040B7002F9566 /* Sources */,
+				14BB1C1C206040B7002F9566 /* Frameworks */,
+				14BB1C1D206040B7002F9566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BB1C21206040B7002F9566 /* PBXTargetDependency */,
+			);
+			name = "My Firt AppTests";
+			productName = "My Firt AppTests";
+			productReference = 14BB1C1F206040B7002F9566 /* My Firt AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14BB1C29206040B7002F9566 /* My Firt AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BB1C39206040B8002F9566 /* Build configuration list for PBXNativeTarget "My Firt AppUITests" */;
+			buildPhases = (
+				14BB1C26206040B7002F9566 /* Sources */,
+				14BB1C27206040B7002F9566 /* Frameworks */,
+				14BB1C28206040B7002F9566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BB1C2C206040B7002F9566 /* PBXTargetDependency */,
+			);
+			name = "My Firt AppUITests";
+			productName = "My Firt AppUITests";
+			productReference = 14BB1C2A206040B7002F9566 /* My Firt AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14BB1C03206040B7002F9566 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Filip;
+				TargetAttributes = {
+					14BB1C0A206040B7002F9566 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					14BB1C1E206040B7002F9566 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14BB1C0A206040B7002F9566;
+					};
+					14BB1C29206040B7002F9566 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14BB1C0A206040B7002F9566;
+					};
+				};
+			};
+			buildConfigurationList = 14BB1C06206040B7002F9566 /* Build configuration list for PBXProject "My Firt App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14BB1C02206040B7002F9566;
+			productRefGroup = 14BB1C0C206040B7002F9566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14BB1C0A206040B7002F9566 /* My Firt App */,
+				14BB1C1E206040B7002F9566 /* My Firt AppTests */,
+				14BB1C29206040B7002F9566 /* My Firt AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BB1C09206040B7002F9566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BB1C19206040B7002F9566 /* LaunchScreen.storyboard in Resources */,
+				14BB1C16206040B7002F9566 /* Assets.xcassets in Resources */,
+				14BB1C14206040B7002F9566 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB1C1D206040B7002F9566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB1C28206040B7002F9566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14BB1C07206040B7002F9566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BB1C11206040B7002F9566 /* ViewController.swift in Sources */,
+				14BB1C0F206040B7002F9566 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB1C1B206040B7002F9566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BB1C24206040B7002F9566 /* My_Firt_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB1C26206040B7002F9566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BB1C2F206040B7002F9566 /* My_Firt_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14BB1C21206040B7002F9566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BB1C0A206040B7002F9566 /* My Firt App */;
+			targetProxy = 14BB1C20206040B7002F9566 /* PBXContainerItemProxy */;
+		};
+		14BB1C2C206040B7002F9566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BB1C0A206040B7002F9566 /* My Firt App */;
+			targetProxy = 14BB1C2B206040B7002F9566 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14BB1C12206040B7002F9566 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BB1C13206040B7002F9566 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14BB1C17206040B7002F9566 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BB1C18206040B7002F9566 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14BB1C31206040B7002F9566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14BB1C32206040B7002F9566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14BB1C34206040B7002F9566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My Firt App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fg.My-Firt-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14BB1C35206040B7002F9566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My Firt App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fg.My-Firt-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14BB1C37206040B8002F9566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My Firt AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fg.My-Firt-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Firt App.app/My Firt App";
+			};
+			name = Debug;
+		};
+		14BB1C38206040B8002F9566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My Firt AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fg.My-Firt-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Firt App.app/My Firt App";
+			};
+			name = Release;
+		};
+		14BB1C3A206040B8002F9566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My Firt AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fg.My-Firt-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Firt App";
+			};
+			name = Debug;
+		};
+		14BB1C3B206040B8002F9566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "My Firt AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fg.My-Firt-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Firt App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14BB1C06206040B7002F9566 /* Build configuration list for PBXProject "My Firt App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BB1C31206040B7002F9566 /* Debug */,
+				14BB1C32206040B7002F9566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BB1C33206040B7002F9566 /* Build configuration list for PBXNativeTarget "My Firt App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BB1C34206040B7002F9566 /* Debug */,
+				14BB1C35206040B7002F9566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BB1C36206040B8002F9566 /* Build configuration list for PBXNativeTarget "My Firt AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BB1C37206040B8002F9566 /* Debug */,
+				14BB1C38206040B8002F9566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BB1C39206040B8002F9566 /* Build configuration list for PBXNativeTarget "My Firt AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BB1C3A206040B8002F9566 /* Debug */,
+				14BB1C3B206040B8002F9566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14BB1C03206040B7002F9566 /* Project object */;
+}
